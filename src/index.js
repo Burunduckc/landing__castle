@@ -20,3 +20,5 @@ import logo from './img/logo.png';
 import placeholder from './img/placeholder.png';
 import smartphone from './img/smart.png';
 import video from './img/video.png';
+import whire from './img/icons/white.png';
+import blue from './img/icons/blue.png';

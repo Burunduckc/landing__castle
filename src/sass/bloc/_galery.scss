@@ -1,0 +1,29 @@
+.galery{
+    background-color: $maincolorsix;
+    &__title{
+        text-align: center;
+        padding-top: 120px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 36px;
+        line-height: 145%;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #222222;
+    }
+    &__block{
+        margin: 0 auto;
+        width: 150px;
+        img{
+            display: block;
+            margin-top: 8px;
+            width: 100%;
+        }
+    }
+    &__wrapper{
+        padding-top: 90px;
+        display: grid;
+        grid-template-columns: repeat(6, 309px);
+    }
+}
