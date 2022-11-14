@@ -25,6 +25,11 @@
         width: 255px;
         height: 64px;
         background-color: $maincolorfirst;
+        cursor: pointer;
+        &:hover{
+            background-color: rgb(166, 168, 163);
+            transition: all 0.5s;
+        }
     }
     &__btn{
         display: block;
@@ -43,5 +48,10 @@
         width: 320px;
         height: 64px;
         background-color: $maincolorfirst;
+        cursor: pointer;
+        &:hover{
+            background-color: rgb(166, 168, 163);
+            transition: all 0.5s;
+        }
     }
 }
