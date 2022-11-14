@@ -1,0 +1,17 @@
+@import './lib/normalize';
+@import './base/fonts';
+@import './base/var';
+@import './base/mixin';
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+};
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+@import './bloc/more'

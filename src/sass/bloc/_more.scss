@@ -1,0 +1,47 @@
+.more{
+    background: url('../img/alchohol.png') center (center / cover) no-repeat;
+    &__title{
+        text-align: center; 
+        padding-top: 120px;
+        color: $maincolorfirst;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 36px;
+        line-height: 145%;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+    }
+    &-wrap{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 70px;
+        padding-bottom: 120px;
+        width: 680px;
+        height: 64px;
+        margin: 0 auto;
+    }
+    &__for_btn{
+        width: 255px;
+        height: 64px;
+        background-color: $maincolorfirst;
+    }
+    &__btn{
+        display: block;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 20px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        text-decoration: none;
+        text-align: center;
+        padding-top: 23px;
+    }
+    &__for_btntwo{
+        width: 320px;
+        height: 64px;
+        background-color: $maincolorfirst;
+    }
+}
