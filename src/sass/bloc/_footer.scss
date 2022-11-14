@@ -1,0 +1,23 @@
+.footer{
+    width: 1700px;
+    &-wrap{
+        width: 1100px;
+        display: flex;
+        padding-top: 40px;
+        justify-content: space-between;
+    }
+    &-title{
+        width: 325px;
+        font-size: 14px;
+        line-height: 135%;
+    }
+    &__all{
+        width: 261px;
+        a{
+            color: $maincolorsecond;
+            font-size: 14px;
+            line-height: 135%;
+            
+        }
+    }
+}
