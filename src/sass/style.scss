@@ -12,4 +12,9 @@
 .container {
     width: 1110px;
     margin: 0 auto;
-}
+};
+
+@import 'blocks/promo';
+@import 'blocks/subpromo';
+@import 'blocks/restoran';
+@import 'blocks/about';

@@ -1,20 +1,30 @@
 .title {
-    &__fz13 {
+    &_fz9 {
+        font-weight: 300;
+        font-size: 9px;
+        line-height: 11px;
+    }
+    &_fz13 {
         font-weight: 300;
         font-size: 13px;
         line-height: 16px;
     }
-    &__fz14 {
+    &_fz14 {
         font-weight: 300;
         font-size: 14px;
         line-height: 18px;
     }
-    &__fz16 {
+    &_fz16 {
         font-size: 16px;
         font-weight: 300;
         line-height: 19px;
     }
-    &__fz36 {
+    &_fz30 {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 37px;
+    }
+    &_fz36 {
         font-weight: 300;
         font-size: 36px;
         line-height: 42px;

@@ -1,0 +1,39 @@
+.promo {
+    margin-top: 60px;
+    &__wrapper {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        &-menu {
+            display: flex;
+            align-items: center;
+            .menu-text {
+                margin-right: 30px;
+                text-transform: uppercase;
+            }
+            .main {
+                color: #D1A954;
+                font-weight: 400;
+                border: 1px solid rgba(209, 169, 84, 0.9);
+                padding: 7px 9px;
+            }
+            .reclama {
+                color: #D1A954;
+                font-weight: 700;
+            }
+        }
+        .hamburger {
+            margin:0 345px 0 153px;
+            &-line {
+                content: '';
+                width: 40px;
+                height: 1px;
+                background-color: black;
+                margin: 10px 0;
+            }
+        }
+        &-img {
+            margin:0 230px 0 130px;
+        }
+    }
+}

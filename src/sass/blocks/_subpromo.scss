@@ -1,0 +1,51 @@
+.subpromo {
+    margin-top: 100px;
+    &__wrapper {
+        display: grid;
+        grid-template: 650px / repeat(3, 480px);
+        column-gap: 30px;
+        justify-content: center;
+        &-item {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            background: url('../img/Rectangle 2.5.png') center (center / cover) no-repeat;
+            .item_descr {
+                display: flex;
+                flex-direction: column;
+                
+                color: #fff;
+                text-align: center;
+                background-color: $maincolorthird;
+                &-text {
+                    margin: 22px auto;
+                    max-width: 300px;
+                }
+                &-title {
+                    text-transform: uppercase;
+                    margin-bottom: 10px;
+                    margin-top: 12px;
+                }
+                .lol {
+                    margin: 0 auto;
+                    border: 1px solid rgba(255, 255, 255, 0.5);
+                    margin: 20px;
+                }
+            }
+        }
+    }
+}
+
+.two {
+    background: url('../img/Rectangle 2 (2).png')
+}
+
+.three {
+    background: url('../img/Rectangle 2 (1).png')
+}
+
+.arrow {
+    display: block;
+    margin: 0 auto;
+    margin-top: 65px;
+}

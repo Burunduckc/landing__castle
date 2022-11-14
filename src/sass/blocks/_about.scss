@@ -1,0 +1,42 @@
+.about {
+    margin-top: 80px;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 350px 510px;
+        column-gap: 125px;
+        justify-content: center;
+        margin-left: 40px;
+        &-descr {
+            .descr-img {
+                margin:0 0 30px 70px;
+            }
+            .descr-title {
+                margin-bottom: 2    0px;
+            }
+        }
+        &-item {
+            display: grid;
+            grid-template: repeat(2, 170px) / repeat(2, 255px);
+            column-gap: 30px;
+            row-gap: 20px;
+            .item {
+                &-title {
+                    position: relative;
+                    margin-bottom: 20px;
+                    text-transform: uppercase;
+                    left: 50px;
+                    &::before {
+                        width: 40px;
+                        height: 40px;
+                        left: -50px;
+                        top: -10px;
+                        position: absolute;
+                        content: '';
+                        
+                        background: url('../icons/descr4.png') center no-repeat;
+                    }
+                }
+            }
+        }
+    }
+}
