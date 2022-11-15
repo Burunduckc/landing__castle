@@ -1,0 +1,28 @@
+.galery {
+    margin-top: 210px;
+    margin-bottom: 30px;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 270px 450px 350px;
+        column-gap: 30px;
+        margin-bottom: 26px;
+        .item {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            &__title {
+                text-transform: uppercase;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    &__container {
+        display: grid;
+        grid-template: 300px 300px / 635px 445px;
+        gap: 30px;
+        .item__img-total {
+            margin-bottom: 26px;
+        }
+    }
+}
